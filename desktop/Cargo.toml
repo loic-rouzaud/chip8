@@ -1,0 +1,11 @@
+[package]
+name = "desktop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chip8_core = { path = "../chip8_core" }
+
+[target.'cfg(target_os="macos")'.dependencies.sdl2]
+features = ["bundled"]
+version = "0.36.0"
