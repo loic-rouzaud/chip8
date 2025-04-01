@@ -41,12 +41,14 @@ git clone git@github.com:loic-rouzaud/chip8.git
 ```
 
 Ensuite, vous pouvez compiler et exécuter le projet en utilisant les commandes suivantes :
-Télécharger les jeux CHIP-8 à partir de https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html
 
 ```bash
 cd chip8
 cargo run <path_to_rom_file>
 ```
+
+Télécharger les jeux CHIP-8 à partir de https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html
+
 
 # Contrôles :
 
