@@ -43,7 +43,7 @@ git clone git@github.com:loic-rouzaud/chip8.git
 Ensuite, vous pouvez compiler et exécuter le projet en utilisant les commandes suivantes :
 
 ```bash
-cd chip8
+cd chip8/desktop
 cargo run <path_to_rom_file>
 ```
 
